@@ -38,11 +38,11 @@ function isInRange(num) {
   // return true if num is less than 50 and greater than 20
   // otherwise return false
 if (num <=20) {
-return false;
+  return false;
 } else if (num >=50) {
   return false;
 } else if (20 > num < 50) {
-    return true;
+  return true;
 } 
 }
 
